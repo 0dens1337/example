@@ -20,10 +20,7 @@
         </nav>
         <a class="btn btn-warning" href="/review">Отзывы</a>
     </div>
-    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal text-body-emphasis">Главная</h1>
-        <p>ыщапорылопрывалопрвалдорплаврплваорпловарлпвартплоравлпоа</p>
-    </div>
+
 
 
     <div class="container">@yield('main_content')</div>

@@ -13,8 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'MainController@home');
+use App\Http\Controllers\MainController;
 
-Route::get('/about', 'MainController@about');
+Route::get('/', [MainController::class, 'home']);
 
+Route::get('/about', [MainController:: class, 'about']);
 
+Route::get('/review', [MainController::class, 'review']);
+Route::post('/review/check', [MainController::class, 'review_check']);

@@ -2,7 +2,10 @@
 @section('title')Главная страница@endsection
 
 @section('main_content')
-    <p>swliufhwaighwerakjhglewr;kngkerjbkerjnrkejngrel;kjngkl;rejngkljrengkljregkjrbeghrelgkndkbsdakjhfd;sknjgdk;lsjng;dslamglfsdkng</p>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal text-body-emphasis">Главная</h1>
+        <p>ыщапорылопрывалопрвалдорплаврплваорпловарлпвартплоравлпоа</p>
+    </div>
     <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div class="col">
             <div class="card mb-4 rounded-3 shadow-sm">
